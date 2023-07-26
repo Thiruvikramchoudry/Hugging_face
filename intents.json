@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Good morning"],
+            "responses": ["Hello!", "Hi there!", "Good to see you!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later!", "Have a good day!"]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": ["I didn't understand that. Could you please rephrase?"]
+        }
+    ]
+}
