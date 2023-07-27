@@ -11,6 +11,45 @@
             "responses": ["See you later!", "Have a good day!"]
         },
         {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?"],
+    "responses": ["I am a chatbot.", "I go by Pulse.", "You can call me Chatbot."]
+  },
+  {
+    "tag": "age",
+    "patterns": ["How old are you?", "When were you created?"],
+    "responses": ["I am an AI language model, so I don't have an age."]
+  },
+        {
+    "tag": "help",
+    "patterns": ["Can you help me?", "I need assistance"],
+    "responses": ["Of course! I'm here to help. What do you need assistance with?", "Sure thing! Let me know what you need help with, and I'll do my best to assist you."]
+  },
+        {
+  "tag": "creator",
+  "patterns": [
+    "what is the name of your developers",
+    "what is the name of your creators",
+    "what is the name of the developers",
+    "what is the name of the creators",
+    "who created you",
+    "your developers",
+    "your creators",
+    "who are your developers",
+    "developers",
+    "you are made by",
+    "you are made by whom",
+    "who created you",
+    "who create you",
+    "creators",
+    "who made you",
+    "who designed you"
+  ],
+  "responses": [
+    "A team named BlackSquad"
+  ]
+},
+        {
             "tag": "unknown",
             "patterns": [],
             "responses": ["I didn't understand that. Could you please rephrase?"]
