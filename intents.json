@@ -2,13 +2,18 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": ["Hello", "Hi", "Good morning"],
+            "patterns": ["Hello", "Hi", "Hey", "Good morning"],
             "responses": ["Hello!", "Hi there!", "Good to see you!"]
         },
         {
             "tag": "goodbye",
             "patterns": ["Bye", "See you later", "Goodbye"],
             "responses": ["See you later!", "Have a good day!"]
+        },
+      {
+            "tag": "how",
+            "patterns": ["How do you do?", "How are you?"],
+            "responses": ["I'm fine what about you?"]
         },
         {
     "tag": "name",
