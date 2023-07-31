@@ -8,7 +8,7 @@ import random
 from torch.nn.functional import softmax
 
 # Load intents
-with open('intents.json', 'r') as file:
+with open('description.json', 'r') as file:
     intents = json.load(file)
 
 # Create vectorizer
@@ -64,7 +64,7 @@ for epoch in range(500):
 
 
 # Save model
-torch.save(model.state_dict(), 'chatpulse.pth')
+torch.save(model.state_dict(), 'chatpulse_response.pth')
 
 # Test model
 while True:
