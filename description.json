@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "cure",
+            "patterns": ["what is the cure ", "what will be the cure", "give me the cure","cure"],
+            "responses": ["cure"]
+        },
+      {
+            "tag": "description",
+            "patterns": ["give me description ", "tell me about the more disease", "give me more detail","description","what is it"],
+            "responses": ["description"]
+      },
+      {
+            "tag": "cause",
+            "patterns": ["what is the cause ", "what will be the cause", "give me the cause" ,"cause"],
+            "responses": ["cause"]
+      },
+      {
+            "tag": "symptoms",
+            "patterns": ["what are the symptoms ", "symptom", "symptoms" ,"tell me about the symptoms","give me more about symptoms"],
+            "responses": ["symptoms"]
+      },
+      {
+            "tag": "doctor concern",
+            "patterns": ["does doctor concern required ", "doctor concern", "doctor" ,"do i need to visit doctor","should i visit doctot"],
+            "responses": ["doctor concern"]
+      },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": ["I didn't understand that. Could you please rephrase?"]
+        }
+    ]
+}

@@ -2,8 +2,8 @@
     "intents": [
         {
             "tag": "greeting",
-            "patterns": ["Hello", "Hi", "Hey", "Good morning"],
-            "responses": ["Hello!", "Hi there!", "Good to see you!"]
+            "patterns": ["Hello", "Hi", "Good morning","Hey","Hii"],
+            "responses": ["Hello!", "Hi there!", "Hey ,Good to see you!"]
         },
         {
             "tag": "goodbye",
@@ -11,9 +11,20 @@
             "responses": ["See you later!", "Have a good day!"]
         },
       {
-            "tag": "how",
-            "patterns": ["How do you do?", "How are you?"],
-            "responses": ["I'm fine what about you?"]
+            "tag": "thankyou",
+            "patterns": ["Thank you", "thank you so much", "good job"],
+            "responses": ["It's been my pleasure to help you"]
+        },
+      {
+            "tag": "nice",
+            "patterns": ["nice to see you", "nice to have you"],
+            "responses": ["Me too, how can i help you"]
+        },
+
+        {
+            "tag": "enquiry",
+            "patterns": ["How do you do?", "How are you ?", "How was your day?"],
+            "responses": ["I am Good..", "I am Fine.., How about you.."]
         },
         {
     "tag": "name",
@@ -33,10 +44,10 @@
         {
   "tag": "creator",
   "patterns": [
-    "what is the name of your developers",
-    "what is the name of your creators",
-    "what is the name of the developers",
-    "what is the name of the creators",
+    " name of your developers",
+    "name of your creators",
+    "name of the developers",
+    "name of the creators",
     "who created you",
     "your developers",
     "your creators",
@@ -51,7 +62,7 @@
     "who designed you"
   ],
   "responses": [
-    "A team named BlackSquad"
+    "I am the brainchild of 'BlackSquad', a collaborative venture of 3 highly distinguished professionals in their respective fields."
   ]
 },
         {
